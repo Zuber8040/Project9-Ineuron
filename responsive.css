@@ -1,0 +1,258 @@
+@media only screen and (min-width:320px) and (max-width:480px){
+
+    *{
+     /* border: 2px solid red; */
+    }
+     header{
+       display: grid;
+       grid-template-columns: 1fr;
+     }
+     nav a{
+       font-size: 12px;
+     }
+     nav{
+       float: right;
+       margin-left: 90px;
+       margin-right: 0px;
+       margin-top: 15px;
+       width: 300px;
+       cursor: pointer;
+       /* border: 2px solid red; */
+   }
+   
+   .nav-item{
+       margin-right: 5px;
+       color: white;
+       
+   }
+   
+   .nav-item-active{
+       background-color: #fff;
+       padding: 5px;
+       border-radius: 5px;
+       color: #5A31FC;
+       font-weight: 400;
+       margin-right: 20px;
+   }
+   
+   .logo{
+       display: inline-block;
+       width: 50px;
+       margin-left: 10px;
+       margin-top: -20px;
+   }
+   .search-icon{
+     display: none;}
+   
+   .header-text{
+     /* border: 2px solid rebeccapurple; */
+     width: 380px;
+     text-align: center;
+     color: white;
+     margin-left: 0px;
+     margin-top: 50px;
+     float: left;
+     font-size: medium;
+   }
+   
+   .header-image{
+       width: 200px;
+       /* border: 2px solid red; */
+       float: left;
+       margin-left: 80px;
+   }
+   
+   .companies{
+     margin-top: 20px;
+     margin-left: 0px;
+   }
+   
+   .company-items{
+     font-size: 10px;
+     text-decoration: none;
+     margin-left: 30px;
+     color: black;
+     font-weight: bolder;
+     font-family: 'Righteous', cursive;
+   }
+   div.cards{
+     display: grid;
+     grid-template-columns: 1fr  1fr;
+   
+   
+   }
+   div.cards div{
+     margin-top: 50px;
+   }
+   .api-heading{
+     text-align: center;
+     font-weight: bolder;
+     margin-left: 0px;
+     margin-top: 50px;
+     font-style: bold;
+   }
+   
+   .cards{
+     margin-left: 0px;
+     margin-top: 20px;
+     display: flex;
+     flex-direction: row;
+   }
+   
+   /* blog section */
+   
+   .blog-heading{
+     text-align: center;
+     margin-left: 0px;
+     margin-top: 50px;
+     font-size: 10px;
+   }
+   .blog-heading :hover{
+     cursor: pointer;
+   }
+   div.blog-cards{
+     display: none;
+   }
+   div.faq-section {
+     display: grid;
+     grid-template-columns: 1fr;
+   }
+   div.faq-image{
+     display: none;
+   }
+   .faq-content{
+     /* float: left; */
+     margin-left: 0px;
+     text-align: center;
+   }
+   
+   .faq-content h2{
+     font-weight: bolder;
+     font-size: 20px;
+   }
+   .faq-content h4{
+     font-size: 10px;
+   }
+   
+   
+   .faq-content button{
+     background: #5A31FC;
+     border-radius: 3px;
+     color: white;
+     border: none;
+     padding: 5px;
+     padding-left: 20px;
+     padding-right: 20px;
+   }
+   div.download-section{
+     display: grid;
+     grid-template-columns: 1fr;
+   }
+   div.download-content{
+     display: none;
+   }
+   form {
+     width: 300px;
+     margin-left: 50px;
+     display:flex;
+     flex-direction:row;
+     height: 40px;
+     border:2px solid grey;
+     border-radius: 22px;
+     padding:2px;
+     background-color: #E9EDFF;
+   }
+   
+   .download-email{
+     /* float: right; */
+     /* margin-right: 250px; */
+     margin-top: 50px;
+   }
+   .download-email{
+     display: flex;
+     margin-left: 0px;
+     flex-direction: row;
+     padding-left: 1px;
+     padding-bottom: 60px;
+   }
+   button {
+     width: 50px;
+     color:white;
+     border-radius: 20px;
+     border-width: 1px;
+     background-color: #5A31FC;
+     font-size: 5px;
+   }
+   
+   .footer-section{
+     height: 250px;
+     background-color: #3C0AFE;
+   }
+   
+   .footer-left{
+     float: left;
+   }
+   
+   .footer-logo{
+     margin-top: 50px;
+     padding-left: 10px;
+   }
+   
+   .list{
+   
+     display: flex;
+     flex-direction: row;
+     margin-left: 30px;
+     list-style-type: none;
+     color: white;
+   }
+   
+   .logos-list{
+   
+     display: flex;
+     flex-direction: row;
+     margin-left: 10px;
+     list-style-type: none;
+     color: white;
+     margin-top: 120px;
+     margin-right: -200px;
+   }
+   
+   
+   
+   .list-items{
+     margin-left: 25px;
+   }
+   
+   .footer-right{
+     /* float: right; */
+     margin-top: 10px;
+     margin-right: 100px;
+   }
+   
+   .footer-logos{
+     width: 40px;
+     margin-top: 50px;
+     margin-left: 20px;
+   }
+   div.footer-section div ul li{
+     font-size: 10px;
+     text-align: center;
+   }
+   div.footer-left img{
+     display: none;
+   }
+   
+   }
+   
+   
+   
+   
+   
+   @media only screen and (min-width:481px) and (max-width:1024px){
+   
+   
+   
+   
+   
+   }
